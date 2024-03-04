@@ -1,2 +1,3 @@
 require("amundfremming.remap")
-print("Hello from the primeagen")
+require("amundfremming.set")
+
