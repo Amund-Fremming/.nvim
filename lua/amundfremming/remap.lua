@@ -17,7 +17,7 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
 -- Hoppe til nytt prosjekt / Tmux session
-vim.keymap.set("n", "<D-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>", { noremap = true })
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
 -- Endre ordet jeg er på, alle som er like
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
